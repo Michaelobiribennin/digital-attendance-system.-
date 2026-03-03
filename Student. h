@@ -1,0 +1,27 @@
+#ifndef STUDENT_H
+#define STUDENT_H
+
+#include <iostream>
+using namespace std;
+
+class Student {
+private:
+    string name;
+    string indexNumber;
+
+public:
+    Student(string n, string i) {
+        name = n;
+        indexNumber = i;
+    }
+
+    string getName() {
+        return name;
+    }
+
+    string getIndexNumber() {
+        return indexNumber;
+    }
+};
+
+#endif
